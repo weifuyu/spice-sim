@@ -1,0 +1,48 @@
+ÿØÿÛ«schematic
+  «component (2600,-3900) 4 0
+    «symbol D
+      «type: D»
+      «description: Silicon Diode»
+      «library file: Diode.txt»
+      «shorted pins: false»
+      «line (100,80) (-100,80) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,80) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-70) 0 0 0x1000000 -1 -1»
+      «triangle (0,80) (100,-70) (-100,-70) 0 0 0x1000000 0x2000000 -1 -1»
+      «text (150,-150) 1 75 0 0x1000000 -1 -1 "D1"»
+      «text (150,150) 1 75 0 0x1000000 -1 -1 "D1n4007"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "A"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "K"»
+    »
+  »
+  «component (700,-3900) 0 0
+    «symbol V
+      «type: V»
+      «description: Independent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "V1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "0"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «net (700,-4500) 1 13 0 "GND"»
+  «net (2600,-4400) 1 13 0 "GND"»
+  «wire (700,-3700) (700,-3300) "N01"»
+  «wire (700,-4500) (700,-4100) "GND"»
+  «wire (700,-3300) (2600,-3300) "N01"»
+  «wire (2600,-4100) (2600,-4400) "GND"»
+  «wire (2600,-3300) (2600,-3700) "N01"»
+  «text (1100,-4950) 1 7 0 0x1000000 -1 -1 ".dc V1 -0.5 2 10m\n.plot I(D1)"»
+  «text (3200,-4600) 1 7 0 0x1000000 -1 -1 ".lib ..\lib\1N4007.REV0.LIB"»
+  «text (3150,-3850) 1 7 1 0x1000000 -1 -1 ".lib https://www.onsemi.com/download/models/lib/1n4007.rev0.lib"»
+  «text (3150,-3250) 1 7 1 0x1000000 -1 -1 "It seems Qspice does not support include URL library yet\nhttps://www.onsemi.com/products/discrete-power-modules/rectifiers/1n4007#technical-documentation"»
+  «text (3150,-2550) 1.6 7 1 0x1000000 -1 -1 "IV characteristic of a diode"»
+»
+
