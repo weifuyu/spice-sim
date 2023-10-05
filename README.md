@@ -1,2 +1,2 @@
 # Intro
-It's my repository for my `spice` simulation mini projects. 
+It's my repository for `spice` simulation mini projects. 
