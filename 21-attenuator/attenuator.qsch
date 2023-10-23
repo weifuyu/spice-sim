@@ -1,0 +1,616 @@
+ÿØÿÛ«schematic
+  «component (1400,-1300) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R1"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R12}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (400,-1900) 4 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (130,-150) 1 75 0 0x1000000 -1 -1 "R2"»
+      «text (130,150) 1 75 0 0x1000000 -1 -1 "{R11}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (2600,-1900) 4 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (130,-150) 1 75 0 0x1000000 -1 -1 "R3"»
+      «text (130,150) 1 75 0 0x1000000 -1 -1 "{R11}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-2200,-1900) 0 0
+    «symbol V
+      «type: V»
+      «description: Independent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "V1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "AC 1"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-1000,-1300) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R4"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{Zs1}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (700,-7300) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R9"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R31}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (2000,-7300) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R10"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R31}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (1400,-7900) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R11"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{R32}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-1000,-7300) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R12"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{Zs3}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (1400,-14100) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R13"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R53}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (700,-14600) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R14"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R51}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (2000,-14600) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R15"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R51}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (1400,-15400) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R16"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{R52}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-1000,-14600) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R17"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{Zs5}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (1400,-3800) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R23"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R12/2}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (400,-4400) 4 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (130,-150) 1 75 0 0x1000000 -1 -1 "R24"»
+      «text (130,150) 1 75 0 0x1000000 -1 -1 "{R11}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (2600,-4400) 4 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (130,-150) 1 75 0 0x1000000 -1 -1 "R25"»
+      «text (130,150) 1 75 0 0x1000000 -1 -1 "{R11/2}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-1000,-3800) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R26"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{Zs1}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (1300,-4900) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R27"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R12/2}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (3600,-3800) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R28"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R12/2}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (4800,-4400) 4 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (130,-150) 1 75 0 0x1000000 -1 -1 "R30"»
+      «text (130,150) 1 75 0 0x1000000 -1 -1 "{R11}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (3500,-4900) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R32"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R12/2}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (6600,-4300) 0 0
+    «symbol E
+      «type: E»
+      «description: Voltage Dependent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «line (-200,100) (-150,100) 0 0 0x1000000 -1 -1»
+      «line (-109,71) (-150,100) 0 0 0x1000000 -1 -1»
+      «line (-200,-100) (-150,-100) 0 0 0x1000000 -1 -1»
+      «line (-109,-71) (-150,-100) 0 0 0x1000000 -1 -1»
+      «line (-160,80) (-160,50) 0 0 0x1000000 -1 -1»
+      «line (-175,65) (-145,65) 0 0 0x1000000 -1 -1»
+      «line (-175,-67) (-145,-67) 0 0 0x1000000 -1 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "E1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "1"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 ""»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 ""»
+      «pin (-200,100) (0,0) 1 0 0 0x0 -1 ""»
+      «pin (-200,-100) (0,0) 1 0 0 0x0 -1 ""»
+    »
+  »
+  «component (3400,-1800) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R5"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{ZL1}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (5700,-4300) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R6"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{ZL1}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (3400,-7900) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R29"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{ZL3}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (3500,-15400) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R7"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{ZL5}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (700,-10500) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R31"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R41}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (2000,-10500) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R33"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{R42}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (1400,-11100) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R34"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{R43}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-1000,-10500) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R35"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{Zs4}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (3400,-11100) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R36"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{ZL4}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «net (400,-2400) 1 13 0 "GND"»
+  «net (2600,-2400) 1 13 0 "GND"»
+  «net (-2200,-2400) 1 13 0 "GND"»
+  «net (-2100,-1300) 1 14 0 "Vin"»
+  «net (3400,-1300) 1 14 0 "Vo-10dB-Pi"»
+  «net (1400,-8400) 1 13 0 "GND"»
+  «net (3200,-7300) 1 14 0 "Vo-10dB-Tee"»
+  «net (1400,-15900) 1 13 0 "GND"»
+  «net (3200,-14600) 1 14 0 "Vo-10dB-BT"»
+  «net (6600,-4700) 1 13 0 "GND"»
+  «net (6700,-3800) 1 7 0 "Vo-2x10dB-opad-cascade"»
+  «net (400,-5100) 1 13 0 "GND"»
+  «net (3400,-2400) 1 13 0 "GND"»
+  «net (-400,-1300) 1 14 0 "Vin1"»
+  «net (-400,-3800) 1 14 0 "Vin2"»
+  «net (-400,-7300) 1 14 0 "Vin3"»
+  «net (-400,-14600) 1 14 0 "Vin5"»
+  «net (3400,-8400) 1 13 0 "GND"»
+  «net (3500,-15900) 1 13 0 "GND"»
+  «net (1400,-11600) 1 13 0 "GND"»
+  «net (3200,-10500) 1 14 0 "Vo-10dB-Taper"»
+  «net (-400,-10500) 1 14 0 "Vin4"»
+  «net (3400,-11600) 1 13 0 "GND"»
+  «junction (5700,-3800)»
+  «junction (5700,-4900)»
+  «junction (4800,-3800)»
+  «junction (4800,-4900)»
+  «junction (2600,-1300)»
+  «junction (2600,-3800)»
+  «junction (2600,-4900)»
+  «junction (2400,-14600)»
+  «junction (1400,-7300)»
+  «junction (1400,-10500)»
+  «junction (1400,-14600)»
+  «junction (400,-1300)»
+  «junction (400,-3800)»
+  «junction (400,-4900)»
+  «junction (300,-14600)»
+  «junction (-1600,-1300)»
+  «junction (-1600,-3800)»
+  «junction (-1600,-7300)»
+  «junction (-1600,-10500)»
+  «wire (2600,-1700) (2600,-1300) "Vo-10dB-Pi"»
+  «wire (2600,-2400) (2600,-2100) "GND"»
+  «wire (1200,-1300) (400,-1300) "Vin1"»
+  «wire (400,-2100) (400,-2400) "GND"»
+  «wire (400,-1300) (400,-1700) "Vin1"»
+  «wire (-2200,-1700) (-2200,-1300) "Vin"»
+  «wire (-2200,-2400) (-2200,-2100) "GND"»
+  «wire (-400,-1300) (400,-1300) "Vin1"»
+  «wire (-2200,-1300) (-2100,-1300) "Vin"»
+  «wire (2600,-1300) (3400,-1300) "Vo-10dB-Pi"»
+  «wire (-1600,-1300) (-1200,-1300) "Vin"»
+  «wire (-2100,-1300) (-1600,-1300) "Vin"»
+  «wire (1400,-7700) (1400,-7300) "N01"»
+  «wire (1400,-8400) (1400,-8100) "GND"»
+  «wire (1400,-7300) (1800,-7300) "N01"»
+  «wire (-1200,-7300) (-1600,-7300) "Vin"»
+  «wire (1400,-7300) (900,-7300) "N01"»
+  «wire (-400,-7300) (-800,-7300) "Vin3"»
+  «wire (1400,-15200) (1400,-14600) "N02"»
+  «wire (1400,-15900) (1400,-15600) "GND"»
+  «wire (2400,-14600) (3200,-14600) "Vo-10dB-BT"»
+  «wire (1400,-14600) (1800,-14600) "N02"»
+  «wire (-1200,-14600) (-1600,-14600) "Vin"»
+  «wire (1400,-14600) (900,-14600) "N02"»
+  «wire (1200,-14100) (300,-14100) "Vin5"»
+  «wire (300,-14100) (300,-14600) "Vin5"»
+  «wire (500,-14600) (300,-14600) "Vin5"»
+  «wire (1600,-14100) (2400,-14100) "Vo-10dB-BT"»
+  «wire (2400,-14100) (2400,-14600) "Vo-10dB-BT"»
+  «wire (2200,-14600) (2400,-14600) "Vo-10dB-BT"»
+  «wire (-400,-14600) (-800,-14600) "Vin5"»
+  «wire (-1600,-3800) (-1600,-1300) "Vin"»
+  «wire (2600,-4200) (2600,-3800) "N03"»
+  «wire (1200,-3800) (400,-3800) "Vin2"»
+  «wire (400,-4600) (400,-4900) "GND"»
+  «wire (400,-3800) (400,-4200) "Vin2"»
+  «wire (-400,-3800) (400,-3800) "Vin2"»
+  «wire (-1600,-3800) (-1200,-3800) "Vin"»
+  «wire (1500,-4900) (2600,-4900) "N04"»
+  «wire (400,-4900) (1100,-4900) "GND"»
+  «wire (2600,-4900) (2600,-4600) "N04"»
+  «wire (4800,-4200) (4800,-3800) "N05"»
+  «wire (4800,-3800) (3800,-3800) "N05"»
+  «wire (2600,-4900) (3300,-4900) "N04"»
+  «wire (4800,-4900) (4800,-4600) "N06"»
+  «wire (2600,-3800) (3400,-3800) "N03"»
+  «wire (6600,-4100) (6600,-3800) "Vo-2x10dB-opad-cascade"»
+  «wire (6600,-4700) (6600,-4500) "GND"»
+  «wire (5700,-3800) (6400,-3800) "N05"»
+  «wire (6400,-4400) (6400,-4900) "N06"»
+  «wire (6400,-3800) (6400,-4200) "N05"»
+  «wire (3700,-4900) (4800,-4900) "N06"»
+  «wire (5700,-4900) (4800,-4900) "N06"»
+  «wire (6600,-3800) (6700,-3800) "Vo-2x10dB-opad-cascade"»
+  «wire (400,-5100) (400,-4900) "GND"»
+  «wire (-1600,-10500) (-1600,-14600) "Vin"»
+  «wire (3400,-1600) (3400,-1300) "Vo-10dB-Pi"»
+  «wire (2600,-1300) (1600,-1300) "Vo-10dB-Pi"»
+  «wire (3400,-2000) (3400,-2400) "GND"»
+  «wire (5700,-4500) (5700,-4900) "N06"»
+  «wire (4800,-3800) (5700,-3800) "N05"»
+  «wire (6400,-4900) (5700,-4900) "N06"»
+  «wire (5700,-3800) (5700,-4100) "N05"»
+  «wire (-800,-1300) (-400,-1300) "Vin1"»
+  «wire (-800,-3800) (-400,-3800) "Vin2"»
+  «wire (500,-7300) (-400,-7300) "Vin3"»
+  «wire (300,-14600) (-400,-14600) "Vin5"»
+  «wire (3200,-7300) (3400,-7300) "Vo-10dB-Tee"»
+  «wire (2200,-7300) (3200,-7300) "Vo-10dB-Tee"»
+  «wire (3400,-8100) (3400,-8400) "GND"»
+  «wire (3400,-7300) (3400,-7700) "Vo-10dB-Tee"»
+  «wire (3500,-15600) (3500,-15900) "GND"»
+  «wire (3500,-14600) (3500,-15200) "Vo-10dB-BT"»
+  «wire (3500,-14600) (3200,-14600) "Vo-10dB-BT"»
+  «wire (1400,-10900) (1400,-10500) "N07"»
+  «wire (1400,-11600) (1400,-11300) "GND"»
+  «wire (1400,-10500) (1800,-10500) "N07"»
+  «wire (-1200,-10500) (-1600,-10500) "Vin"»
+  «wire (1400,-10500) (900,-10500) "N07"»
+  «wire (-400,-10500) (-800,-10500) "Vin4"»
+  «wire (-1600,-7300) (-1600,-3800) "Vin"»
+  «wire (500,-10500) (-400,-10500) "Vin4"»
+  «wire (3200,-10500) (3400,-10500) "Vo-10dB-Taper"»
+  «wire (2200,-10500) (3200,-10500) "Vo-10dB-Taper"»
+  «wire (3400,-11300) (3400,-11600) "GND"»
+  «wire (3400,-10500) (3400,-10900) "Vo-10dB-Taper"»
+  «wire (-1600,-7300) (-1600,-10500) "Vin"»
+  «wire (2600,-3800) (1600,-3800) "N03"»
+  «rect (-100,-500) (3050,-2800) 0 0 2 0x4000000 0x1000000 -1 0 -1»
+  «rect (-100,-6400) (3050,-8700) 0 0 2 0x4000000 0x1000000 -1 0 -1»
+  «rect (-100,-13300) (3050,-16050) 0 0 2 0x4000000 0x1000000 -1 0 -1»
+  «rect (-100,-3000) (5200,-5300) 0 0 2 0x4000000 0x1000000 -1 0 -1»
+  «rect (-100,-9600) (3050,-11900) 0 0 2 0x4000000 0x1000000 -1 0 -1»
+  «text (-50,900) 1 7 1 0x1000000 -1 -1 "REF:\n[1] Pi & Tee attenuator caclulator: https://www.everythingrf.com/rf-calculators/attenuator-calculator\n[2] https://www.electronics-tutorials.com/basics/attenuators.htm"»
+  «text (4450,-2000) 1 7 0 0x1000000 -1 -1 ".param Z10 = 50\n.param Zs1 = Z10\n.param ZL1 = Z10 \n.param R11 = 96.25\n.param R12 = 71.15\n \n.plot V(Vo-10dB-Pi)/V(Vin1) V(Vo-2x10dB-opad-cascade)/V(Vin2)"»
+  «text (-50,350) 1 7 0 0x1000000 -1 -1 ".ac oct 10 1Meg 100Meg"»
+  «text (350,-750) 1 7 1 0x1000000 -1 -1 "Pi-pad attuator, -10 dB, Z0=50ohm"»
+  «text (4400,-7750) 1 7 0 0x1000000 -1 -1 ".param Z30 = 50\n.param Zs3 = Z30\n.param ZL3 = Z30 \n.param R31 = 25.97\n.param R32 = 35.14\n \n.plot V(Vo-10dB-Tee)/V(Vin3)"»
+  «text (300,-6650) 1 7 1 0x1000000 -1 -1 "T-pad, -10 dB, Z0=50ohm"»
+  «text (4500,-15100) 1 7 0 0x1000000 -1 -1 ".param Z50 = 50\n.param Zs5 = Z50\n.param ZL5 = Z50 \n.param R51 = Z50 \n.param R52 = 23.12\n.param R53 = 108.11 \n \n.plot V(Vo-10dB-BT)/V(Vin5)"»
+  «text (450,-13500) 1 7 1 0x1000000 -1 -1 "Bridged Tee, -10 dB, Z0=50ohm"»
+  «text (4500,-600) 1 7 1 0x1000000 -1 -1 "Pi-pad attenuator, -10 dB, Z0=Zs=ZL=50ohm\nhttps://www.electronics-tutorials.ws/attenuators/pi-pad-attenuator.html \n(1) Pi-pad is ideal for insertion between two equal impedances to reduce signal level\n(2) The balanced-Pi attenuator is also called an O-pad attenuator. \nO-pad is suitable for cascading to achieve high attenuation in stages, with middle shunt merged"»
+  «text (450,-3250) 1 7 1 0x1000000 -1 -1 "O-pad attuator, 2x-10 dB cascaded, Z0=50ohm"»
+  «text (4450,-6550) 1 7 1 0x1000000 -1 -1 "Tee attenuator (T-pad), -10 dB, Z0=50ohm\nhttps://www.electronics-tutorials.ws/attenuators/t-pad-attenuator.html"»
+  «text (50,-9800) 1 7 1 0x1000000 -1 -1 "Taper-pad, -10 dB, Zs=75ohm, ZL=50ohm"»
+  «text (4300,-11400) 1 7 0 0x1000000 -1 -1 ".param Zs4 = 75\n.param ZL4 = 50 \n.param R41 = 48.6\n.param R42 = 18\n.param R43 = 43\n \n.plot SQRT((V(Vo-10dB-Taper)^2/ZL4)/(V(Vin4)^2/Zs4))"»
+  «text (4350,-9950) 1 7 1 0x1000000 -1 -1 "Taper-pad, -10 dB, Zs=75ohm, ZL=50ohm\nThe pad gives POWER attenuation, NOT amplitude attenuation. \nFor taper-pad application, the system has unequal source and load impedance, it's not able to use simple Vout/Vin ratio and .plot cmd to plot the attenuation\nAC simulation .plot basically draws 20*log10(signal) curves. For equal source/load impedance cases, the result is equal to power attenuation. \n \nLoad power = Vo^2 / ZL, source power = Vin^2 / Zs. \nsignal = sqrt(load power / source power), so that it could be plotted by .plot cmd using 20*log10(signal) "»
+  «text (4450,-13550) 1 7 1 0x1000000 -1 -1 "Bridged-T attenuator, -10 dB, Z0=50ohm\nhttps://www.electronics-tutorials.ws/attenuators/bridged-t-attenuator.html\nThis type of attenuator circuit can not be used for the matching of unequal impedances.\nBridge-T attenuator design allows for the bridged-T pad to be adjustable by changing only two of the resistive elements for potentiometers or switched resistors "»
+»
+
