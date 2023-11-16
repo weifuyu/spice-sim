@@ -18,7 +18,7 @@
       «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
     »
   »
-  «component (-2700,1700) 2 0
+  «component (-2000,1700) 2 0
     «symbol R
       «type: R»
       «description: Resistor(USA Style Symbol)»
@@ -32,7 +32,7 @@
       «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
     »
   »
-  «component (1000,1100) 0 0
+  «component (-200,1100) 0 0
     «symbol R
       «type: R»
       «description: Resistor(USA Style Symbol)»
@@ -46,76 +46,20 @@
       «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
     »
   »
-  «component (-500,1600) 0 0
-    «symbol T
-      «type: T»
-      «description: Lossless Transmission Line»
-      «shorted pins: false»
-      «rect (-400,100) (400,50) 0 0 0 0x1000000 0x3000000 -1 0 -1»
-      «rect (-400,-50) (400,-100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
-      «text (0,100) 1 14 0 0x1000000 -1 -1 "T1"»
-      «text (0,-100) 1 13 0 0x1000000 -1 -1 "Td=<1n>"»
-      «text (0,-300) 1 13 0 0x1000000 -1 -1 "Z0=<50>"»
-      «pin (-400,100) (0,0) 1 0 0 0x0 -1 "L1"»
-      «pin (-400,-100) (0,0) 1 0 0 0x0 -1 "L2"»
-      «pin (400,100) (0,0) 1 0 0 0x0 -1 "R1"»
-      «pin (400,-100) (0,0) 1 0 0 0x0 -1 "R2"»
-    »
-  »
-  «component (2100,1200) 0 0
-    «symbol E
-      «type: E»
-      «description: Voltage Dependent Voltage Source»
-      «shorted pins: false»
-      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
-      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
-      «line (-200,100) (-150,100) 0 0 0x1000000 -1 -1»
-      «line (-109,71) (-150,100) 0 0 0x1000000 -1 -1»
-      «line (-200,-100) (-150,-100) 0 0 0x1000000 -1 -1»
-      «line (-109,-71) (-150,-100) 0 0 0x1000000 -1 -1»
-      «line (-160,80) (-160,50) 0 0 0x1000000 -1 -1»
-      «line (-175,65) (-145,65) 0 0 0x1000000 -1 -1»
-      «line (-175,-67) (-145,-67) 0 0 0x1000000 -1 -1»
-      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
-      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
-      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
-      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
-      «text (100,150) 1 7 0 0x1000000 -1 -1 "E1"»
-      «text (100,-150) 1 7 0 0x1000000 -1 -1 "1"»
-      «pin (0,200) (0,0) 1 0 0 0x0 -1 ""»
-      «pin (0,-200) (0,0) 1 0 0 0x0 -1 ""»
-      «pin (-200,100) (0,0) 1 0 0 0x0 -1 ""»
-      «pin (-200,-100) (0,0) 1 0 0 0x0 -1 ""»
-    »
-  »
   «net (-3400,400) 1 13 0 "GND"»
   «net (-3400,1700) 1 14 0 "In"»
-  «net (2100,700) 1 13 0 "GND"»
-  «net (2100,1700) 1 14 0 "Out"»
-  «junction (1000,1700)»
-  «junction (1000,600)»
+  «net (-200,1700) 1 14 0 "Out"»
   «junction (-3400,600)»
-  «wire (1000,1300) (1000,1700) "N01"»
-  «wire (1000,600) (1000,900) "N02"»
-  «wire (-2900,1700) (-3400,1700) "In"»
-  «wire (-900,1700) (-2500,1700) "N03"»
+  «wire (-200,1300) (-200,1700) "Out"»
+  «wire (-200,600) (-200,900) "GND"»
+  «wire (-2200,1700) (-3400,1700) "In"»
   «wire (-3400,600) (-3400,400) "GND"»
   «wire (-3400,1700) (-3400,1300) "In"»
-  «wire (-3400,600) (-1300,600) "GND"»
   «wire (-3400,900) (-3400,600) "GND"»
-  «wire (-1300,600) (-1300,1500) "GND"»
-  «wire (-100,1500) (400,1500) "N02"»
-  «wire (-1300,1500) (-900,1500) "GND"»
-  «wire (400,1500) (400,600) "N02"»
-  «wire (400,600) (1000,600) "N02"»
-  «wire (1000,600) (1900,600) "N02"»
-  «wire (1900,1300) (1900,1700) "N01"»
-  «wire (1900,600) (1900,1100) "N02"»
-  «wire (1000,1700) (-100,1700) "N01"»
-  «wire (1900,1700) (1000,1700) "N01"»
-  «wire (2100,1400) (2100,1700) "Out"»
-  «wire (2100,700) (2100,1000) "GND"»
-  «text (-1950,-2200) 1 7 0 0x1000000 -1 -1 ".param Rs=50\n.param RL=50\n \n.step param RL 1 200 10\n.tran 0 10n 1n\n \n.plot V(Out)\n.plot V(Out)*I(R2)\n \n.func fRefCoeff(z,z0) {(z-z0)/(z+z0)} \n.func fVSWR(rc) {(1+abs(rc))/(1-abs(rc))} \n \n.MEAS Reflect param fRefCoeff(RL, Rs)\n.MEAS VSWR param fVSWR(Reflect)\n.MEAS Vo RMS(V(Out))\n.MEAS Vin RMS(V(In))\n.MEAS Vo2Vin param Vo/Vin\n.MEAS Pout param Vo*Vo/RL \n.MEAS eff param Pout/(Vin*Vin/(Rs+RL))\n \n.MEAS plot VSWR \n.MEAS plot Reflect\n.MEAS plot Pout\n.MEAS plot eff"»
-  «text (3000,2050) 1 7 1 0x1000000 -1 -1 "References\n[1] https://en.wikipedia.org/wiki/Reflection_coefficient\n[2] https://en.wikipedia.org/wiki/Standing_wave_ratio"»
+  «wire (-1800,1700) (-200,1700) "Out"»
+  «wire (-3400,600) (-200,600) "GND"»
+  «text (-1950,-2200) 1 7 0 0x1000000 -1 -1 ".param Rs=50\n.param RL=50\n \n.step param RL 1 200 10\n.tran 0 10n 0 10p\n \n.plot V(Out)\n.plot V(Out)*I(R2)\n \n.func fRefCoeff(z,z0) {(z-z0)/(z+z0)} \n.func fVSWR(rc) {(1+abs(rc))/(1-abs(rc))} \n \n.MEAS Reflect param fRefCoeff(RL, Rs)\n.MEAS VSWR param fVSWR(Reflect)\n.MEAS Vo RMS(V(Out))\n.MEAS Vin RMS(V(In))\n.MEAS Vo2Vin param Vo/Vin\n.MEAS Pout param Vo*Vo/RL \n.MEAS eff param Pout/(Vin*Vin/(Rs+RL))\n \n.MEAS plot VSWR \n.MEAS plot Reflect\n.MEAS plot Pout\n.MEAS plot eff"»
+  «text (3000,2050) 1 7 1 0x1000000 -1 -1 "References\n[1] https://en.wikipedia.org/wiki/Reflection_coefficient\n[2] https://en.wikipedia.org/wiki/Standing_wave_ratio\n[3] https://www.analog.com/en/technical-articles/voltage-standing-wave-ratio-definition-and-formula.html"»
+  «text (3000,-1150) 1 7 1 0x1000000 -1 -1 "Transmission Line Effect\nT-line signal reflection on terminal are due to 2 factors,\n1) The signal transmit at speed of light, (or slightly smaller than c actually)\n2) Impedance mismatching at cable terminal \n \nVSWR, Voltage Standing Wave Ratio\nVoltage standing wave ratio (VSWR) is defined as the ratio between transmitted and \nreflected voltage standing waves in a radio frequency (RF) electrical transmission system.\n \nDenote votlage of incident wave as V+, and reflected wave as V-. \nThe REFLECTION COEFFICIENT is\n    lambda = V-/V+ = -(I-/I+)=(ZL-Z0)/(ZL+Z0)\nAt source side, lambda = (Zs-Z0)/(Zs+Z0)\n \nVSWR is solely determined by Reflection Coefficient. \n    VSWR=(1-|lambda|)/(1+|lambda|)\n \nFor ZL>Z0, VSWR = ZL/Z0\nFor ZL<Z0, VSWR = Z0/ZL\n \nVSWR = |V_MAX|/|V_MIN| = (V+ + V-)/(V+ - V-)"»
 »
 
