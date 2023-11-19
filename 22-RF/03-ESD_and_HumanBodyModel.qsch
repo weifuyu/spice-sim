@@ -1,0 +1,220 @@
+ÿØÿÛ«schematic
+  «component (-300,-1300) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "Rcharge"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "1Meg"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (700,-2500) 0 0
+    «symbol C
+      «type: C»
+      «description: Capacitor»
+      «shorted pins: false»
+      «line (0,200) (0,40) 0 0 0x1000000 -1 -1»
+      «line (0,-40) (0,-200) 0 0 0x1000000 -1 -1»
+      «rect (-130,-40) (130,-30) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-130,30) (130,40) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "Cstray"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "100p"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (2000,-1300) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "Rdischarge"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "1.5K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-1200,-1900) 0 0
+    «symbol V
+      «type: V»
+      «description: Independent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "V1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "8000"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (1100,-1300) 6 0
+    «symbol SW
+      «type: S»
+      «description: Voltage Controlled Switch»
+      «shorted pins: false»
+      «line (-136,100) (-200,100) 0 0 0x1000000 -1 -1»
+      «line (-136,100) (-121,89) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-200,-100) 0 0 0x1000000 -1 -1»
+      «line (-165,91) (-165,61) 0 0 0x1000000 -1 -1»
+      «line (-180,76) (-150,76) 0 0 0x1000000 -1 -1»
+      «line (-180,-76) (-150,-76) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-121,-89) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,105) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-105) 0 0 0x1000000 -1 -1»
+      «line (94,-45) (15,60) 0 0 0x1000000 -1 -1»
+      «ellipse (-150,-150) (150,150) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,55) (25,105) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,-105) (25,-55) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (-150,200) 1 39 0 0x1000000 -1 -1 "S1"»
+      «text (150,200) 1 39 0 0x1000000 -1 -1 "sw1"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+      «pin (-200,100) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (-200,-100) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (400,-1300) 6 0
+    «symbol SW
+      «type: S»
+      «description: Voltage Controlled Switch»
+      «shorted pins: false»
+      «line (-136,100) (-200,100) 0 0 0x1000000 -1 -1»
+      «line (-136,100) (-121,89) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-200,-100) 0 0 0x1000000 -1 -1»
+      «line (-165,91) (-165,61) 0 0 0x1000000 -1 -1»
+      «line (-180,76) (-150,76) 0 0 0x1000000 -1 -1»
+      «line (-180,-76) (-150,-76) 0 0 0x1000000 -1 -1»
+      «line (-136,-100) (-121,-89) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,105) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-105) 0 0 0x1000000 -1 -1»
+      «line (94,-45) (15,60) 0 0 0x1000000 -1 -1»
+      «ellipse (-150,-150) (150,150) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,55) (25,105) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «ellipse (-25,-105) (25,-55) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (-150,200) 1 39 0 0x1000000 -1 -1 "S2"»
+      «text (150,200) 1 39 0 0x1000000 -1 -1 "sw1"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+      «pin (-200,100) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (-200,-100) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-100,-200) 0 0
+    «symbol V
+      «type: V»
+      «description: Independent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "V2"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "pulse -5 5 0 0.1p 0.1p 0.5m 10"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (4100,-2300) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "100"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (2700,-2200) 0 0
+    «symbol Zener
+      «type: D»
+      «description: Zener Diode»
+      «library file: Zener.txt»
+      «shorted pins: false»
+      «line (80,80) (-80,80) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,80) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-70) 0 0 0x1000000 -1 -1»
+      «line (80,80) (130,130) 0 0 0x1000000 -1 -1»
+      «line (-130,30) (-80,80) 0 0 0x1000000 -1 -1»
+      «triangle (0,80) (100,-70) (-100,-70) 0 0 0x1000000 0x2000000 -1 -1»
+      «text (100,200) 1 7 0 0x1000000 -1 -1 "D1"»
+      «text (100,-200) 1 7 0 0x1000000 -1 -1 "MM3Z15VT1G"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "A"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "K"»
+    »
+  »
+  «net (-800,-3100) 1 13 0 "GND"»
+  «net (-100,-800) 1 13 0 "GND"»
+  «net (4100,-1300) 1 14 0 "eut"»
+  «net (700,-2100) 1 7 0 "sw"»
+  «net (400,200) 1 14 0 "gate"»
+  «junction (2700,-1300)»
+  «junction (2700,-2900)»
+  «junction (800,-900)»
+  «junction (700,-1300)»
+  «junction (700,-2900)»
+  «junction (300,-700)»
+  «junction (-100,-600)»
+  «junction (-800,-2900)»
+  «wire (-800,-3100) (-800,-2900) "GND"»
+  «wire (-800,-2900) (700,-2900) "GND"»
+  «wire (700,-2900) (700,-2700) "GND"»
+  «wire (-800,-2900) (-1200,-2900) "GND"»
+  «wire (-1200,-1300) (-500,-1300) "N01"»
+  «wire (500,-1100) (500,-900) "gate"»
+  «wire (800,-900) (1000,-900) "gate"»
+  «wire (1000,-900) (1000,-1100) "gate"»
+  «wire (1200,-1100) (1200,-700) "GND"»
+  «wire (1200,-700) (300,-700) "GND"»
+  «wire (300,-700) (300,-1100) "GND"»
+  «wire (700,-1300) (900,-1300) "sw"»
+  «wire (-1200,-1700) (-1200,-1300) "N01"»
+  «wire (-1200,-2900) (-1200,-2100) "GND"»
+  «wire (1300,-1300) (1800,-1300) "N02"»
+  «wire (-100,-1300) (200,-1300) "N03"»
+  «wire (700,-2100) (700,-1300) "sw"»
+  «wire (600,-1300) (700,-1300) "sw"»
+  «wire (-100,0) (-100,200) "gate"»
+  «wire (-100,-600) (-100,-400) "GND"»
+  «wire (400,200) (800,200) "gate"»
+  «wire (800,200) (800,-900) "gate"»
+  «wire (500,-900) (800,-900) "gate"»
+  «wire (-100,-600) (300,-600) "GND"»
+  «wire (-100,-800) (-100,-600) "GND"»
+  «wire (300,-600) (300,-700) "GND"»
+  «wire (2700,-2000) (2700,-1300) "eut"»
+  «wire (2700,-2900) (2700,-2400) "GND"»
+  «wire (2700,-1300) (2200,-1300) "eut"»
+  «wire (2700,-1300) (4100,-1300) "eut"»
+  «wire (4100,-2500) (4100,-2900) "GND"»
+  «wire (4100,-1300) (4100,-2100) "eut"»
+  «wire (700,-2900) (2700,-2900) "GND"»
+  «wire (4100,-2900) (2700,-2900) "GND"»
+  «wire (700,-2300) (700,-2100) "sw"»
+  «wire (-100,200) (400,200) "gate"»
+  «rect (-700,450) (2500,-3900) 0 0 2 0x4000000 0x1000000 -1 0 -1»
+  «text (-1050,1850) 1 7 1 0x1000000 -1 -1 "Electrostatic discharge (ESD) is defined as “the sudden and momentary electric current \nthat flows between two objects at different electrical potentials.”\n \nESD solutions include, \n1) Steering diode array\n2) Transient Voltage Suppressor (TVS) diodes\n3) Plain Zener diodes\n \nThe HUMAN BODY MODEL (HBM) is used to characterize the susceptibility of an electronic component to ESD damage."»
+  «text (-1050,3350) 1 7 1 0x1000000 -1 -1 "Electrostatic discharge testing standards – understanding & comparing the differences\nhttps://www.planetanalog.com/electrostatic-discharge-testing-standards-understanding-comparing-the-differences/\n \nConstruct SPDT switch model in LTSpice: \nhttps://electronics.stackexchange.com/questions/372278/spdt-in-ltspice"»
+  «text (2850,-550) 1 7 0 0x1000000 -1 -1 ".model sw1 SW(Ron=1, Roff=1G, VT=0, VH=1)"»
+  «text (5350,-2050) 1 7 0 0x1000000 -1 -1 ".tran 0 0.6m 0 100p\n \n.plot V(gate)\n.plot V(sw) \n.plot V(eut) I(D1)"»
+  «text (1350,-2500) 1 7 0 0x1000000 -1 -1 ".ic V(sw)=0"»
+  «text (100,-3500) 1 7 1 0x1000000 -1 -1 "HUMAN BODY MODEL"»
+»
+
