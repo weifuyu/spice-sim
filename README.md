@@ -1,5 +1,5 @@
 # Intro
-I love firing up SPICE simualtion for circuits. Over the years I tried to simulate all kinds of circuits I encountered for better understanding, which I plan to have a look back, re-do simulation with latest tools, and organize better to share it. 
+I love firing up SPICE simualtion for circuits design. Over the years I tried to simulate all kinds of circuits I encountered for better understanding, which I plan to have a look back, re-do simulation with latest tools, and organize better to share it. 
 
 There are many great free tools available on market, within then [QSpice](https://p.qorvo.com/qspice-simulator.html) that only launched not long ago is my favorite for circuit and Power Converter simulation. However I may use all of the great SPICE simulator below whence suitable. 
 
