@@ -1,0 +1,157 @@
+ÿØÿÛ«schematic
+  «component (-900,-200) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "100K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-900,600) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R2"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "100K"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-1500,600) 8 0
+    «symbol D
+      «type: D»
+      «description: Silicon Diode»
+      «library file: Diode.txt»
+      «shorted pins: false»
+      «line (100,80) (-100,80) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,80) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-70) 0 0 0x1000000 -1 -1»
+      «triangle (0,80) (100,-70) (-100,-70) 0 0 0x1000000 0x2000000 -1 -1»
+      «text (150,150) 1 7 0 0x1000000 -1 -1 "D1"»
+      «text (150,-150) 1 7 0 0x1000000 -1 -1 "BAS116HY"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "A"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "K"»
+    »
+  »
+  «component (-1500,-200) 4 0
+    «symbol D
+      «type: D»
+      «description: Silicon Diode»
+      «library file: Diode.txt»
+      «shorted pins: false»
+      «line (100,80) (-100,80) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,80) 0 0 0x1000000 -1 -1»
+      «line (0,-200) (0,-70) 0 0 0x1000000 -1 -1»
+      «triangle (0,80) (100,-70) (-100,-70) 0 0 0x1000000 0x2000000 -1 -1»
+      «text (150,-150) 1 75 0 0x1000000 -1 -1 "D2"»
+      «text (150,150) 1 75 0 0x1000000 -1 -1 "BAS116HY"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "A"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "K"»
+    »
+  »
+  «component (-200,200) 0 0
+    «symbol NJF
+      «type: JN»
+      «description: N-Channel JFET Transistor»
+      «library file: NJF.txt»
+      «shorted pins: false»
+      «line (100,200) (100,100) 0 0 0x1000000 -1 -1»
+      «line (100,-100) (100,-200) 0 0 0x1000000 -1 -1»
+      «line (100,-100) (-200,-100) 0 0 0x1000000 -1 -1»
+      «line (100,100) (-50,100) 0 0 0x1000000 -1 -1»
+      «line (-50,150) (-50,-150) 0 0 0x1000000 -1 -1»
+      «triangle (-50,-100) (-145,-75) (-145,-125) 0 0 0x1000000 0x3000000 -1 -1»
+      «text (200,200) 1 7 0 0x1000000 -1 -1 "J1"»
+      «text (200,-200) 1 7 0 0x1000000 -1 -1 "LS5912"»
+      «pin (100,200) (0,0) 1 0 0 0x0 -1 "D"»
+      «pin (-200,-100) (0,0) 1 0 0 0x0 -1 "G"»
+      «pin (100,-200) (0,0) 1 0 0 0x0 -1 "S"»
+    »
+  »
+  «component (-3800,400) 0 0
+    «symbol V
+      «type: V»
+      «description: Independent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "V1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "SINE(0 10 {1/10µ})"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «component (-1200,-1200) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R3"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{Rload}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «net (-1200,-1800) 1 13 0 "GND"»
+  «net (-3800,0) 1 13 0 "GND"»
+  «net (-100,-300) 1 7 0 "S"»
+  «net (-100,700) 1 7 0 "D"»
+  «net (-600,100) 1 14 0 "G"»
+  «junction (-900,1000)»
+  «junction (-900,200)»
+  «junction (-900,100)»
+  «junction (-900,-600)»
+  «junction (-1200,-600)»
+  «junction (-1500,1000)»
+  «junction (-1500,200)»
+  «wire (-1500,-400) (-1500,-600) "S"»
+  «wire (-1500,1000) (-1500,800) "D"»
+  «wire (-1500,200) (-1500,0) "G"»
+  «wire (-1200,-600) (-900,-600) "S"»
+  «wire (-900,800) (-900,1000) "D"»
+  «wire (-900,200) (-900,400) "G"»
+  «wire (-900,-600) (-900,-400) "S"»
+  «wire (-1500,200) (-900,200) "G"»
+  «wire (-1500,400) (-1500,200) "G"»
+  «wire (-900,100) (-900,200) "G"»
+  «wire (-900,1000) (-100,1000) "D"»
+  «wire (-100,-300) (-100,-600) "S"»
+  «wire (-100,700) (-100,400) "D"»
+  «wire (-100,-600) (-900,-600) "S"»
+  «wire (-1200,-1000) (-1200,-600) "S"»
+  «wire (-1500,-600) (-1200,-600) "S"»
+  «wire (-3800,600) (-3800,1000) "D"»
+  «wire (-3800,0) (-3800,200) "GND"»
+  «wire (-900,1000) (-1500,1000) "D"»
+  «wire (-600,100) (-900,100) "G"»
+  «wire (-900,0) (-900,100) "G"»
+  «wire (-1200,-1800) (-1200,-1400) "GND"»
+  «wire (-3800,1000) (-1500,1000) "D"»
+  «wire (-100,0) (-100,-300) "S"»
+  «wire (-100,1000) (-100,700) "D"»
+  «wire (-400,100) (-600,100) "G"»
+  «text (-3650,-1550) 1 7 0 0x1000000 -1 -1 ".param Rload=100 \n \n*.plot Id(J1)\n.plot I(R3)\n.plot V(G,S) V(G,D)"»
+  «text (1250,350) 1 7 1 0x1000000 -1 -1 "JFET has near symmetrical construction structure, which makes its drain and source almost interchangeable.\nThe main difference lays at that many JFET devices has smaller Cgd than Cgs to optimize the performance\nin it's usual applications. "»
+  «text (-3750,-3300) 1 7 0 0x1000000 -1 -1 "*** test case 2: tran ***\n.tran 50µ"»
+  «text (-3750,-2800) 1 7 1 0x1000000 -1 -1 "*** test case 1: dc ***\n.dc lin V1 -20 20 0.1"»
+  «text (1250,-450) 1.6 7 1 0x1000000 -1 -1 "Bidirectional current limiter"»
+  «text (1300,-900) 1 7 1 0x1000000 -1 -1 "- When with positive supply, Vgs is clampped to 0.7V when Vin is sufficiently high. This clamps JFET current near Idss.\n- When with negative supply, Vds clamped to 0.7V when Vin is sufficiently high. This clamps JFET current near -Idss."»
+»
+
