@@ -10,6 +10,10 @@ The single-switch bidirectional current limiter utilizes the symmetry characteri
 
 ## Bidirectional current limiter
 
+A simple one JFET bidirectional current limiter circuit is shown below. 
+
+<img src="images/092-sim-circuit.png" title="" alt="" width="336">
+
 - When with positive supply, Vgs is clampped to 0.7V when Vin is sufficiently high. This clamps JFET current near Idss.
 - When with negative supply, Vgd clamped to 0.7V when Vin is sufficiently high. This clamps JFET current near -Idss.
 

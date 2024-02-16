@@ -147,7 +147,7 @@
   «wire (-100,0) (-100,-300) "S"»
   «wire (-100,1000) (-100,700) "D"»
   «wire (-400,100) (-600,100) "G"»
-  «text (-3650,-1550) 1 7 0 0x1000000 -1 -1 ".param Rload=100 \n \n*.plot Id(J1)\n.plot I(R3)\n.plot V(G,S) V(G,D)"»
+  «text (-1100,-3050) 1 7 0 0x1000000 -1 -1 ".param Rload=100 \n \n*.plot Id(J1)\n.plot I(R3)\n.plot V(G,S) V(G,D)"»
   «text (1250,350) 1 7 1 0x1000000 -1 -1 "JFET has near symmetrical construction structure, which makes its drain and source almost interchangeable.\nThe main difference lays at that many JFET devices has smaller Cgd than Cgs to optimize the performance\nin it's usual applications. "»
   «text (-3750,-3300) 1 7 0 0x1000000 -1 -1 "*** test case 2: tran ***\n.tran 50µ"»
   «text (-3750,-2800) 1 7 1 0x1000000 -1 -1 "*** test case 1: dc ***\n.dc lin V1 -20 20 0.1"»
