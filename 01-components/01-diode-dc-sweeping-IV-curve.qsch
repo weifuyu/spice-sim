@@ -39,10 +39,11 @@
   «wire (700,-3300) (2600,-3300) "N01"»
   «wire (2600,-4100) (2600,-4400) "GND"»
   «wire (2600,-3300) (2600,-3700) "N01"»
-  «text (1050,-5150) 1 7 0 0x1000000 -1 -1 ".dc V1 -0.5 2 10m\n \n.plot I(D1)"»
-  «text (3200,-4600) 1 7 0 0x1000000 -1 -1 ".lib ..\lib\1N4007.REV0.LIB"»
-  «text (3150,-3850) 1 7 1 0x1000000 -1 -1 ".lib https://www.onsemi.com/download/models/lib/1n4007.rev0.lib"»
-  «text (3150,-3250) 1 7 1 0x1000000 -1 -1 "It seems Qspice does not support include URL library yet\nhttps://www.onsemi.com/products/discrete-power-modules/rectifiers/1n4007#technical-documentation"»
-  «text (3150,-2550) 1.6 7 1 0x1000000 -1 -1 "IV characteristic of a diode"»
+  «text (1050,-5150) 1 7 0 0x1000000 -1 -1 "ï»¿.dc V1 -0.5 2 10m temp -25 125 50\n \n.plot I(D1)"»
+  «text (3200,-4600) 1 7 0 0x1000000 -1 -1 "ï»¿.lib ..\lib\1N4007.REV0.LIB"»
+  «text (3150,-3850) 1 7 1 0x1000000 -1 -1 "ï»¿.lib https://www.onsemi.com/download/models/lib/1n4007.rev0.lib"»
+  «text (3150,-3250) 1 7 1 0x1000000 -1 -1 "ï»¿It seems Qspice does not support include URL library yet\nhttps://www.onsemi.com/products/discrete-power-modules/rectifiers/1n4007#technical-documentation"»
+  «text (3200,-1850) 1.6 7 1 0x1000000 -1 -1 "ï»¿IV characteristic of a diode"»
+  «text (3150,-2250) 1 7 1 0x1000000 -1 -1 "ï»¿The temperature sweeping test shows that the diode forward voltage has negative temperature coefficient,\njust as the well known reason why diode is not suitable for using in parallel. "»
 »
 
