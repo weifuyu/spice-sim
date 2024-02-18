@@ -61,10 +61,11 @@
   «wire (800,500) (1500,500) "Vtest"»
   «wire (1500,-1100) (1500,-1300) "GND"»
   «wire (1500,500) (1500,-700) "Vtest"»
-  «text (-2150,-1550) 1 7 0 0x1000000 -1 -1 ".tran 1.2"»
-  «text (-1750,1500) 1 7 1 0x1000000 -1 -1 "Voltage dependent resistor"»
-  «text (-1750,1200) 1 7 1 0x1000000 -1 -1 "IF(x,y,z) = (x > .5) ? y : z"»
-  «text (-2150,-1950) 1 7 0 0x1000000 -1 -1 ".plot V(Vtest) V(Vtest)/I(R1)\n.plot V(Vtest) V(Vtest)/I(R2)"»
-  «text (-2300,2450) 1 7 1 0x1000000 -1 -1 "NOTE: \nWhen the resistor current is 0,  V(Vtest)/I(R1) will result in division by 0. The plot could go wrong. "»
+  «text (-2150,-1550) 1 7 0 0x1000000 -1 -1 "ï»¿.tran 1.2"»
+  «text (-1750,1500) 1 7 1 0x1000000 -1 -1 "ï»¿Voltage dependent resistor"»
+  «text (-1750,1200) 1 7 1 0x1000000 -1 -1 "ï»¿IF(x,y,z) = (x > .5) ? y : z"»
+  «text (-2150,-1950) 1 7 0 0x1000000 -1 -1 "ï»¿.plot V(Vtest) V(Vtest)/I(R1)\n.plot V(Vtest) V(Vtest)/I(R2)"»
+  «text (-2250,2700) 1 7 1 0x1000000 -1 -1 "ï»¿NOTE: \nWhen the resistor current is 0,  V(Vtest)/I(R1) will result in division by 0. The plot could go wrong."»
+  «text (-2400,3500) 2 7 1 0x1000000 -1 -1 "ï»¿This simulation is to demostrate how IF() function \ncould be used to simulate an voltage-controlled resistor"»
 »
 
