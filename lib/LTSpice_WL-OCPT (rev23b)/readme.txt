@@ -1,0 +1,2 @@
+The opto-coupler models are downloaded from Wurth Electronics. Among them the 817 series are widely used for control loop isolation in isolated SMPS applications.
+https://www.we-online.com/en/components/products/WL-OCPT_PACKAGE_LSOP-4
