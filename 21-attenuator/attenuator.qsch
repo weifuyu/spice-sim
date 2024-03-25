@@ -597,20 +597,20 @@
   «rect (-100,-13300) (3050,-16050) 0 0 2 0x4000000 0x1000000 -1 0 -1»
   «rect (-100,-3000) (5200,-5300) 0 0 2 0x4000000 0x1000000 -1 0 -1»
   «rect (-100,-9600) (3050,-11900) 0 0 2 0x4000000 0x1000000 -1 0 -1»
-  «text (-50,900) 1 7 1 0x1000000 -1 -1 "REF:\n[1] Pi & Tee attenuator caclulator: https://www.everythingrf.com/rf-calculators/attenuator-calculator\n[2] https://www.electronics-tutorials.com/basics/attenuators.htm"»
-  «text (4450,-2000) 1 7 0 0x1000000 -1 -1 ".param Z10 = 50\n.param Zs1 = Z10\n.param ZL1 = Z10 \n.param R11 = 96.25\n.param R12 = 71.15\n \n.plot V(Vo-10dB-Pi)/V(Vin1) V(Vo-2x10dB-opad-cascade)/V(Vin2)"»
-  «text (-50,350) 1 7 0 0x1000000 -1 -1 ".ac oct 10 1Meg 100Meg"»
-  «text (350,-750) 1 7 1 0x1000000 -1 -1 "Pi-pad attuator, -10 dB, Z0=50ohm"»
-  «text (4400,-7750) 1 7 0 0x1000000 -1 -1 ".param Z30 = 50\n.param Zs3 = Z30\n.param ZL3 = Z30 \n.param R31 = 25.97\n.param R32 = 35.14\n \n.plot V(Vo-10dB-Tee)/V(Vin3)"»
-  «text (300,-6650) 1 7 1 0x1000000 -1 -1 "T-pad, -10 dB, Z0=50ohm"»
-  «text (4500,-15100) 1 7 0 0x1000000 -1 -1 ".param Z50 = 50\n.param Zs5 = Z50\n.param ZL5 = Z50 \n.param R51 = Z50 \n.param R52 = 23.12\n.param R53 = 108.11 \n \n.plot V(Vo-10dB-BT)/V(Vin5)"»
-  «text (450,-13500) 1 7 1 0x1000000 -1 -1 "Bridged Tee, -10 dB, Z0=50ohm"»
-  «text (4500,-600) 1 7 1 0x1000000 -1 -1 "Pi-pad attenuator, -10 dB, Z0=Zs=ZL=50ohm\nhttps://www.electronics-tutorials.ws/attenuators/pi-pad-attenuator.html \n(1) Pi-pad is ideal for insertion between two equal impedances to reduce signal level\n(2) The balanced-Pi attenuator is also called an O-pad attenuator. \nO-pad is suitable for cascading to achieve high attenuation in stages, with middle shunt merged"»
-  «text (450,-3250) 1 7 1 0x1000000 -1 -1 "O-pad attuator, 2x-10 dB cascaded, Z0=50ohm"»
-  «text (4450,-6550) 1 7 1 0x1000000 -1 -1 "Tee attenuator (T-pad), -10 dB, Z0=50ohm\nhttps://www.electronics-tutorials.ws/attenuators/t-pad-attenuator.html"»
-  «text (50,-9800) 1 7 1 0x1000000 -1 -1 "Taper-pad, -10 dB, Zs=75ohm, ZL=50ohm"»
-  «text (4300,-11400) 1 7 0 0x1000000 -1 -1 ".param Zs4 = 75\n.param ZL4 = 50 \n.param R41 = 48.6\n.param R42 = 18\n.param R43 = 43\n \n.plot SQRT((V(Vo-10dB-Taper)^2/ZL4)/(V(Vin4)^2/Zs4))"»
-  «text (4350,-9950) 1 7 1 0x1000000 -1 -1 "Taper-pad, -10 dB, Zs=75ohm, ZL=50ohm\nThe pad gives POWER attenuation, NOT amplitude attenuation. \nFor taper-pad application, the system has unequal source and load impedance, it's not able to use simple Vout/Vin ratio and .plot cmd to plot the attenuation\nAC simulation .plot basically draws 20*log10(signal) curves. For equal source/load impedance cases, the result is equal to power attenuation. \n \nLoad power = Vo^2 / ZL, source power = Vin^2 / Zs. \nsignal = sqrt(load power / source power), so that it could be plotted by .plot cmd using 20*log10(signal) "»
-  «text (4450,-13550) 1 7 1 0x1000000 -1 -1 "Bridged-T attenuator, -10 dB, Z0=50ohm\nhttps://www.electronics-tutorials.ws/attenuators/bridged-t-attenuator.html\nThis type of attenuator circuit can not be used for the matching of unequal impedances.\nBridge-T attenuator design allows for the bridged-T pad to be adjustable by changing only two of the resistive elements for potentiometers or switched resistors "»
+  «text (-50,900) 1 7 1 0x1000000 -1 -1 "ï»¿REF:\n[1] Pi & Tee attenuator caclulator: https://www.everythingrf.com/rf-calculators/attenuator-calculator\n[2] https://www.electronics-tutorials.com/basics/attenuators.htm"»
+  «text (4450,-2000) 1 7 0 0x1000000 -1 -1 "ï»¿.param Z10 = 50\n.param Zs1 = Z10\n.param ZL1 = Z10 \n.param R11 = 96.25\n.param R12 = 71.15\n \n.func pi_pad_att() V(Vo-10dB-Pi)/V(Vin1)\n.func opad_cascade_att() V(Vo-2x10dB-opad-cascade)/V(Vin2)\n.plot pi_pad_att() opad_cascade_att()"»
+  «text (-50,350) 1 7 0 0x1000000 -1 -1 "ï»¿.ac oct 10 1Meg 100Meg"»
+  «text (350,-750) 1 7 1 0x1000000 -1 -1 "ï»¿Pi-pad attuator, -10 dB, Z0=50ohm"»
+  «text (4400,-7750) 1 7 0 0x1000000 -1 -1 "ï»¿.param Z30 = 50\n.param Zs3 = Z30\n.param ZL3 = Z30 \n.param R31 = 25.97\n.param R32 = 35.14\n \n.func T_pad_att() V(Vo-10dB-Tee)/V(Vin3)\n.plot T_pad_att()"»
+  «text (300,-6650) 1 7 1 0x1000000 -1 -1 "ï»¿T-pad, -10 dB, Z0=50ohm"»
+  «text (4500,-15100) 1 7 0 0x1000000 -1 -1 "ï»¿.param Z50 = 50\n.param Zs5 = Z50\n.param ZL5 = Z50 \n.param R51 = Z50 \n.param R52 = 23.12\n.param R53 = 108.11 \n \n.func bridged_Tee_att() V(Vo-10dB-BT)/V(Vin5)\n.plot bridged_Tee_att()"»
+  «text (450,-13500) 1 7 1 0x1000000 -1 -1 "ï»¿Bridged Tee, -10 dB, Z0=50ohm"»
+  «text (4500,-600) 1 7 1 0x1000000 -1 -1 "ï»¿Pi-pad attenuator, -10 dB, Z0=Zs=ZL=50ohm\nhttps://www.electronics-tutorials.ws/attenuators/pi-pad-attenuator.html \n(1) Pi-pad is ideal for insertion between two equal impedances to reduce signal level\n(2) The balanced-Pi attenuator is also called an O-pad attenuator. \nO-pad is suitable for cascading to achieve high attenuation in stages, with middle shunt merged"»
+  «text (450,-3250) 1 7 1 0x1000000 -1 -1 "ï»¿O-pad attuator, 2x-10 dB cascaded, Z0=50ohm"»
+  «text (4450,-6550) 1 7 1 0x1000000 -1 -1 "ï»¿Tee attenuator (T-pad), -10 dB, Z0=50ohm\nhttps://www.electronics-tutorials.ws/attenuators/t-pad-attenuator.html"»
+  «text (50,-9800) 1 7 1 0x1000000 -1 -1 "ï»¿Taper-pad, -10 dB, Zs=75ohm, ZL=50ohm"»
+  «text (4300,-11400) 1 7 0 0x1000000 -1 -1 "ï»¿.param Zs4 = 75\n.param ZL4 = 50 \n.param R41 = 48.6\n.param R42 = 18\n.param R43 = 43\n \n.func Taper_pad_att() SQRT((V(Vo-10dB-Taper)^2/ZL4)/(V(Vin4)^2/Zs4))\n.plot Taper_pad_att()"»
+  «text (4350,-9950) 1 7 1 0x1000000 -1 -1 "ï»¿Taper-pad, -10 dB, Zs=75ohm, ZL=50ohm\nThe pad gives POWER attenuation, NOT amplitude attenuation. \nFor taper-pad application, the system has unequal source and load impedance, it's not able to use simple Vout/Vin ratio and .plot cmd to plot the attenuation\nAC simulation .plot basically draws 20*log10(signal) curves. For equal source/load impedance cases, the result is equal to power attenuation. \n \nLoad power = Vo^2 / ZL, source power = Vin^2 / Zs. \nsignal = sqrt(load power / source power), so that it could be plotted by .plot cmd using 20*log10(signal) "»
+  «text (4450,-13550) 1 7 1 0x1000000 -1 -1 "ï»¿Bridged-T attenuator, -10 dB, Z0=50ohm\nhttps://www.electronics-tutorials.ws/attenuators/bridged-t-attenuator.html\nThis type of attenuator circuit can not be used for the matching of unequal impedances.\nBridge-T attenuator design allows for the bridged-T pad to be adjustable by changing only two of the resistive elements for potentiometers or switched resistors "»
 »
 
