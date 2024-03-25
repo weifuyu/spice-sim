@@ -1,0 +1,119 @@
+ÿØÿÛ«schematic
+  «component (-400,300) 0 0
+    «symbol T
+      «type: T»
+      «description: Lossless Transmission Line»
+      «shorted pins: false»
+      «rect (-400,100) (400,50) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-400,-50) (400,-100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (0,100) 1 14 0 0x1000000 -1 -1 "T1"»
+      «text (0,-100) 1 13 0 0x1000000 -1 -1 "Td=<0.25µ>"»
+      «text (0,-300) 1 13 0 0x1000000 -1 -1 "Z0=<50>"»
+      «pin (-400,100) (0,0) 1 0 0 0x0 -1 "L1"»
+      «pin (-400,-100) (0,0) 1 0 0 0x0 -1 "L2"»
+      «pin (400,100) (0,0) 1 0 0 0x0 -1 "R1"»
+      «pin (400,-100) (0,0) 1 0 0 0x0 -1 "R2"»
+    »
+  »
+  «component (1300,300) 0 0
+    «symbol T
+      «type: T»
+      «description: Lossless Transmission Line»
+      «shorted pins: false»
+      «rect (-400,100) (400,50) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-400,-50) (400,-100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «text (0,100) 1 14 0 0x1000000 -1 -1 "T2"»
+      «text (0,-100) 1 13 0 0x1000000 -1 -1 "Td=<0.25µ>"»
+      «text (0,-300) 1 13 0 0x1000000 -1 -1 "Z0=<50>"»
+      «pin (-400,100) (0,0) 1 0 0 0x0 -1 "L1"»
+      «pin (-400,-100) (0,0) 1 0 0 0x0 -1 "L2"»
+      «pin (400,100) (0,0) 1 0 0 0x0 -1 "R1"»
+      «pin (400,-100) (0,0) 1 0 0 0x0 -1 "R2"»
+    »
+  »
+  «component (3000,0) 0 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "R1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "{Rload}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-1700,400) 2 0
+    «symbol R
+      «type: R»
+      «description: Resistor(USA Style Symbol)»
+      «shorted pins: false»
+      «line (0,200) (0,180) 0 0 0x1000000 -1 -1»
+      «line (0,-180) (0,-200) 0 0 0x1000000 -1 -1»
+      «zigzag (-80,180) (80,-180) 0 0 0 0x1000000 -1 -1»
+      «text (80,0) 1 110 0 0x1000000 -1 -1 "R2"»
+      «text (-80,0) 1 109 0 0x1000000 -1 -1 "{Rsrc}"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "1"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "2"»
+    »
+  »
+  «component (-2900,-400) 0 0
+    «symbol Vpulse
+      «type: V»
+      «description: Independent Voltage Source»
+      «shorted pins: false»
+      «line (0,-130) (0,-200) 0 0 0x1000000 -1 -1»
+      «line (0,200) (0,130) 0 0 0x1000000 -1 -1»
+      «line (-70,-30) (-50,-30) 0 0 0x1000000 -1 -1»
+      «line (-50,-30) (-40,30) 0 0 0x1000000 -1 -1»
+      «line (-40,30) (0,30) 0 0 0x1000000 -1 -1»
+      «line (0,30) (10,-30) 0 0 0x1000000 -1 -1»
+      «line (10,-30) (70,-30) 0 0 0x1000000 -1 -1»
+      «rect (-25,77) (25,73) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-2,50) (2,100) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «rect (-25,-73) (25,-77) 0 0 0 0x1000000 0x3000000 -1 0 -1»
+      «ellipse (-130,130) (130,-130) 0 0 0 0x1000000 0x1000000 -1 -1»
+      «text (100,150) 1 7 0 0x1000000 -1 -1 "V1"»
+      «text (100,-150) 1 7 0 0x1000000 -1 -1 "PULSE 0 10 0 10p 10p 10n 4µ"»
+      «pin (0,200) (0,0) 1 0 0 0x0 -1 "+"»
+      «pin (0,-200) (0,0) 1 0 0 0x0 -1 "-"»
+    »
+  »
+  «net (500,-400) 1 13 0 "GND"»
+  «net (500,400) 1 14 0 "tline"»
+  «net (2000,-400) 1 13 0 "GND"»
+  «net (3000,-400) 1 13 0 "GND"»
+  «net (-2900,-800) 1 13 0 "GND"»
+  «net (-1100,-400) 1 13 0 "GND"»
+  «net (-2700,400) 1 14 0 "src"»
+  «net (2600,400) 1 14 0 "load"»
+  «junction (500,200)»
+  «wire (1700,200) (2000,200) "GND"»
+  «wire (500,200) (900,200) "GND"»
+  «wire (-1100,200) (-800,200) "GND"»
+  «wire (500,-400) (500,200) "GND"»
+  «wire (0,200) (500,200) "GND"»
+  «wire (500,400) (900,400) "tline"»
+  «wire (0,400) (500,400) "tline"»
+  «wire (2000,-400) (2000,200) "GND"»
+  «wire (3000,200) (3000,400) "load"»
+  «wire (3000,-400) (3000,-200) "GND"»
+  «wire (2600,400) (1700,400) "load"»
+  «wire (-2900,-200) (-2900,400) "src"»
+  «wire (-2900,-800) (-2900,-600) "GND"»
+  «wire (-1500,400) (-800,400) "N01"»
+  «wire (-2700,400) (-1900,400) "src"»
+  «wire (-1100,200) (-1100,-400) "GND"»
+  «wire (-2900,400) (-2700,400) "src"»
+  «wire (3000,400) (2600,400) "load"»
+  «text (-2900,-1400) 1 7 0 0x1000000 -1 -1 "ï»¿.tran 0 8Âµ 0 100p"»
+  «text (-870,-1610) 1 7 0 0x1000000 -1 -1 "ï»¿.plot V(src) V(tline) V(load)"»
+  «text (-2700,-2650) 1 7 1 0x1000000 -1 -1 "ï»¿*CASE1: perfect match at source and load\n.param Rload = 50\n.param Rsrc = 50"»
+  «text (-2700,-3550) 1 7 1 0x1000000 -1 -1 "ï»¿*CASE2: load full negative voltage reflection as no voltage absorbed\n.param Rload = 0.1\n.param Rsrc = 50"»
+  «text (-2750,-4350) 1 7 1 0x1000000 -1 -1 "ï»¿*CASE3: high load impedance reflect almost full positive voltage as no current delivered\n.param Rload = 1Meg\n.param Rsrc = 50"»
+  «text (-2750,-5250) 1 7 0 0x1000000 -1 -1 "ï»¿*CASE4: impedance mismatch at both ends\n.param Rload = 75\n.param Rsrc = 10"»
+  «text (4250,-1900) 1 7 1 0x1000000 -1 -1 "ï»¿Reference:\n[1] https://incompliancemag.com/an-overview-of-transmission-lines-in-electronic-systems/"»
+»
+
