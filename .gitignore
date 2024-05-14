@@ -20,3 +20,8 @@
 # *.pfg
 
 test/
+
+
+# Excluding SiMetrix/Simplis temporary simulation directories
+SIMPLIS_Data/
+TMP/
