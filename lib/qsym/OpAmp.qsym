@@ -1,0 +1,16 @@
+ÿØÿÛ«symbol OpAmp
+  «type: X»
+  «description: Machine generated symbol for OPAMP»
+  «library file: |.subckt OpAmp 1 2 3\nRi 1 2 {Ri}\nE1 a 0 value={Ao*V(1,2)}\nR1 a b 1\nC1 b 0 {1/( 2*pi*(FBW/Ao) )}\nE2 c 0 value={v(b)}\nRo c 3 {Ro}\n.ends OpAmp»
+  «shorted pins: false»
+  «triangle (300,0) (-300,-300) (-300,300) 0 0 0xff0000 0x1000000 -1 -1»
+  «text (100,300) 1 0 0 0x1000000 -1 -1 "X1"»
+  «text (150,-200) 0.5 0 2 0x1000000 -1 -1 "OPAMP"»
+  «text (-400,-350) 0.583 7 0 0x0 -1 -1 "Ao=1e6 FBW=10e6"»
+  «text (-423,-450) 0.583 7 0 0x0 -1 -1 "Ri=1e6 Ro=1"»
+  «text (-250,200) 0.857 0 1 0x1000000 -1 -1 "-"»
+  «text (-197,-180) 0.583 11 1 0x1000000 -1 -1 "+"»
+  «pin (-300,-200) (30,0) 0.5 15 0 0x0 -1 "1"»
+  «pin (-300,200) (70,0) 0.5 15 0 0x0 -1 "2"»
+  «pin (300,0) (-110,0) 0.5 15 0 0x0 -1 "3"»
+»
