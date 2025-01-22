@@ -42,7 +42,7 @@ ipython_config.py
 
 ####### C language #######
 
-.def
+*.def
 
 # Prerequisites
 *.d

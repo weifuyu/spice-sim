@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.qsym": "spice",
+        "*.qsch": "spice",
+        "pi.h": "c",
+        "transform.h": "c",
+        "ctrl_common.h": "c"
+    }
+}
