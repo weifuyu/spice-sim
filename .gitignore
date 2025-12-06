@@ -15,6 +15,7 @@
 # Qspice ###########################################################################
 # output data file
 *.qraw
+*.qopraw
 
 # plot config file
 # *.pfg
