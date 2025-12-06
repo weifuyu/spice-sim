@@ -1,0 +1,1 @@
+这里添加[《信号/电源完整性仿真分析与实践》](https://weread.qq.com/web/reader/cb4326c05a0717cb43c5bcdk37632cd021737693cfc7149#outline?noScroll=1)书本包含的仿真分析，按例子章节命名。
